@@ -1,0 +1,13 @@
+.page-servidores .page-heading h1 i { color: var(--accent); }
+.server-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 14px; }
+.server-card { display: flex; flex-direction: column; align-items: center; min-height: 255px; padding: 27px 23px 22px; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(160deg, var(--soft-accent), transparent 65%), var(--panel); text-align: center; }
+.server-secondary { border-color: var(--border); background: linear-gradient(160deg, var(--soft-accent), transparent 65%), var(--panel); }
+.server-mark { display: grid; place-items: center; width: 48px; height: 48px; margin-bottom: 17px; border: 1px solid var(--line); border-radius: 9px; color: var(--accent); background: var(--soft-accent); font-size: 21px; }
+.server-card h2 { margin: 0; font-size: 16px; font-weight: 600; }
+.server-card p { margin: 7px 0 19px; color: var(--muted); font-size: 12px; }
+.server-link { display: inline-flex; align-items: center; justify-content: center; gap: 9px; width: 100%; min-height: 40px; margin-top: auto; border-radius: 5px; color: #102011; background: var(--accent); font-size: 12px; font-weight: 700; transition: background .2s; }
+.server-link:hover { background: var(--accent-strong); }
+.server-secondary .server-link { border: 1px solid var(--border); color: var(--text); background: var(--panel-raised); }
+.server-secondary .server-link:hover { background: var(--soft-accent); }
+@media (max-width: 860px) { .server-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 560px) { .server-grid { grid-template-columns: 1fr; } }

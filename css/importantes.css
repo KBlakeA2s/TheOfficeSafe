@@ -1,0 +1,10 @@
+.page-importantes .page-heading h1 i { color: var(--accent); }
+.rules-list { display: grid; gap: 10px; }
+.rule-card { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 18px; padding: 21px 22px; border: 1px solid var(--line); border-radius: 7px; background: linear-gradient(110deg, var(--soft-accent), transparent 36%), var(--panel); }
+.rule-number { display: grid; place-items: center; align-self: start; width: 48px; height: 38px; border: 1px solid var(--line); border-radius: 5px; color: var(--accent); font: 700 12px var(--font-body); letter-spacing: .08em; }
+.rule-card h2 { margin: 0 0 8px; color: var(--text); font-size: 15px; font-weight: 650; line-height: 1.5; }
+.rule-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
+.rule-card p + p { margin-top: 10px; }
+.rule-card strong { color: var(--text); }
+.rule-card a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 560px) { .rule-card { grid-template-columns: 38px minmax(0,1fr); gap: 12px; padding: 16px 14px; } .rule-number { width: 36px; height: 32px; font-size: 10px; } .rule-card h2 { font-size: 14px; } .rule-card p { font-size: 12px; } }

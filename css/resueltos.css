@@ -1,0 +1,8 @@
+.page-resueltos .page-heading h1 i { color: #78b78e; }
+.resolved-list { display: grid; gap: 10px; }
+.resolved-item { display: grid; grid-template-columns: 38px 1fr auto; align-items: center; gap: 16px; padding: 19px 20px; border: 1px solid var(--border); border-radius: 7px; background: var(--panel); }
+.resolved-icon { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 6px; color: var(--accent); background: var(--soft-accent); }
+.resolved-item h2 { margin: 0; font-size: 14px; font-weight: 600; }
+.resolved-item p { margin: 6px 0 0; color: var(--muted); font-size: 12px; }
+.resolved-status { padding: 6px 9px; border-radius: 4px; color: var(--accent-strong); background: var(--soft-accent); font-size: 11px; font-weight: 600; }
+@media (max-width: 560px) { .resolved-item { grid-template-columns: 34px 1fr; gap: 12px; padding: 15px; } .resolved-status { grid-column: 2; justify-self: start; } }

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101112">
+  <title>The Office Safe | Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/home.css">
+  <script src="js/menu.js" defer></script>
+  <script src="js/home.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="site-menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="brand" href="index.html" aria-label="The Office Safe, inicio">
+      <span class="brand-mark"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span>
+      <span class="brand-name">THE OFFICE SAFE</span>
+    </a>
+    <a class="topbar-action" href="pages/servidores.html"><i class="fa-brands fa-discord" aria-hidden="true"></i><span>Unirse</span></a>
+  </header>
+
+  <div class="menu-backdrop" data-menu-close></div>
+  <aside class="side-menu" id="site-menu" aria-label="Navegación principal" aria-hidden="true">
+    <div class="menu-heading"><span>Explorar</span><span class="menu-kicker">THE OFFICE SAFE</span></div>
+    <nav class="menu-links">
+      <a class="menu-link is-active" href="index.html" aria-current="page"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Inicio</span></a>
+      <a class="menu-link" href="pages/anuncios.html"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span>Anuncios</span></a>
+      <a class="menu-link" href="pages/importantes.html"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i><span>Importantes</span></a>
+      <a class="menu-link" href="pages/planes.html"><i class="fa-solid fa-map" aria-hidden="true"></i><span>Planes a Futuro</span></a>
+      <a class="menu-link" href="pages/resueltos.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i><span>Problemas Resueltos</span></a>
+      <a class="menu-link" href="pages/servidores.html"><i class="fa-brands fa-discord" aria-hidden="true"></i><span>Servidores</span></a>
+    </nav>
+  </aside>
+
+  <main class="home-main">
+    <section class="hero">
+      <div class="hero-backdrop hero-backdrop-dark" aria-hidden="true"></div>
+      <div class="hero-backdrop hero-backdrop-light" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot"></span> Los mejores de habla hispana </div>
+        <h1>Un consejo,<br><span>una comunidad</span></h1>
+        <p>EL mejor consejo de habla hispana, ahora en el servidor safe!</p>
+        <a class="button button-gold" href="pages/servidores.html"><i class="fa-solid fa-link" aria-hidden="true"></i> Ir a Links de Invitación</a>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 <span>/</span> 08</div>
+    </section>
+    <section class="home-sections" aria-labelledby="sections-title">
+      <div class="section-heading"><span class="section-kicker">ACCESO DIRECTO</span><h2 id="sections-title">Explora la comunidad</h2></div>
+      <div class="section-grid">
+        <a class="section-tile" href="pages/anuncios.html"><span class="tile-icon"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i></span><span><strong>Anuncios</strong><small>Novedades y comunicados</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/importantes.html"><span class="tile-icon tile-amber"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i></span><span><strong>Importantes</strong><small>Reglas e información clave</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/planes.html"><span class="tile-icon"><i class="fa-solid fa-map" aria-hidden="true"></i></span><span><strong>Planes a Futuro</strong><small>Lo que estamos preparando</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/resueltos.html"><span class="tile-icon tile-green"><i class="fa-solid fa-check-double" aria-hidden="true"></i></span><span><strong>Problemas Resueltos</strong><small>Soluciones y actualizaciones</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/servidores.html"><span class="tile-icon"><i class="fa-brands fa-discord" aria-hidden="true"></i></span><span><strong>Servidores</strong><small>Encuentra tu comunidad</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/mapa.html"><span class="tile-icon tile-green"><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i></span><span><strong>Mapa de clanes</strong><small>Territorios y actualizaciones</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+        <a class="section-tile" href="pages/publicaciones.html"><span class="tile-icon tile-green"><i class="fa-solid fa-star" aria-hidden="true"></i></span><span><strong>Publicaciones destacadas</strong><small>Lo más popular del servidor</small></span><i class="fa-solid fa-arrow-right tile-arrow" aria-hidden="true"></i></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> THE OFFICE SAFE</span></footer>
+</body>
+</html>

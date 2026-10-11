@@ -1,0 +1,8 @@
+.page-mapa .page-heading h1 i { color: var(--accent); }
+.map-notice { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 20px; padding: 17px 19px; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 6px; background: var(--soft-accent); }
+.map-notice > i { margin-top: 3px; color: var(--accent); }
+.map-notice p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.75; }
+.map-notice strong { color: var(--text); }
+.map-figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.map-figure img { display: block; width: 100%; height: auto; }
+.map-figure figcaption { padding: 12px 15px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; }
