@@ -5,6 +5,8 @@
   <title>Mapa de clanes | The Office Safe</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config = { corePlugins: { preflight: false } };</script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../css/mapa.css">
   <script src="../js/menu.js" defer></script><script src="../js/mapa.js" defer></script>
 </head>
@@ -13,9 +15,19 @@
   <div class="menu-backdrop" data-menu-close></div>
   <aside class="side-menu" id="site-menu" aria-label="Navegación principal" aria-hidden="true"><div class="menu-heading"><span>Explorar</span><span class="menu-kicker">THE OFFICE SAFE</span></div><nav class="menu-links"><a class="menu-link" href="../index.html"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Inicio</span></a><a class="menu-link" href="anuncios.html"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span>Anuncios</span></a><a class="menu-link" href="importantes.html"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i><span>Importantes</span></a><a class="menu-link" href="planes.html"><i class="fa-solid fa-map" aria-hidden="true"></i><span>Planes a Futuro</span></a><a class="menu-link" href="resueltos.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i><span>Problemas Resueltos</span></a><a class="menu-link" href="servidores.html"><i class="fa-brands fa-discord" aria-hidden="true"></i><span>Servidores</span></a></nav><div class="menu-footer"><i class="fa-solid fa-lock" aria-hidden="true"></i> Comunidad segura</div></aside>
   <main class="page-main page-mapa">
-    <div class="page-heading"><span class="section-kicker">COMUNIDAD / TERRITORIOS</span><h1><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Mapa de clanes</h1><p>En esta sección podrás consultar el mapa de clanes y revisar sus últimas actualizaciones.</p></div>
-    <aside class="map-notice"><i class="fa-solid fa-flask" aria-hidden="true"></i><p>Este mapa es completamente experimental. Por el momento, <strong>no lo declaramos oficial</strong>; su contenido puede cambiar mientras se revisa y actualiza.</p></aside>
-    <figure class="map-figure"><img src="../mapa.png" alt="Mapa experimental de los territorios de clanes de The Office Safe" loading="eager"><figcaption>Mapa experimental de territorios. Versión de referencia; aún no es oficial.</figcaption></figure>
+    <div class="page-heading"><span class="section-kicker">COMUNIDAD / TERRITORIOS</span><h1><i class="fa-solid fa-map-location-dot" aria-hidden="true"></i> Mapa de clanes</h1><p>En esta sección podrás consultar el mapa y conocer sus últimas actualizaciones cuando esté disponible.</p></div>
+    <section class="map-coming-soon mx-auto flex max-w-3xl flex-col items-center px-6 py-12 text-center sm:px-12 sm:py-16" aria-labelledby="coming-title">
+      <div class="map-eye relative mb-8 grid h-32 w-32 place-items-center rounded-full">
+        <span class="absolute inset-0 rounded-full border border-current opacity-25"></span>
+        <span class="absolute inset-3 rounded-full border border-current opacity-20"></span>
+        <i class="fa-regular fa-eye-slash text-5xl" aria-hidden="true"></i>
+        <span class="map-lock absolute -bottom-1 -right-1 grid h-10 w-10 place-items-center rounded-full" aria-hidden="true"><i class="fa-solid fa-lock"></i></span>
+      </div>
+      <p class="mb-3 text-xs font-semibold uppercase tracking-[.18em]">Próximamente</p>
+      <h2 class="mb-4 font-logo text-3xl font-bold tracking-wide sm:text-4xl" id="coming-title">PROXIMAMENTE</h2>
+      <p class="max-w-lg text-sm leading-7 sm:text-base">aun estamos trabajando en el mapa</p>
+      <div class="map-progress mt-9 flex items-center gap-3 rounded-full px-4 py-2 text-xs font-medium"><span class="map-progress-dot h-2 w-2 rounded-full"></span> Mapa en preparación</div>
+    </section>
   </main>
   <footer class="site-footer"><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> THE OFFICE SAFE</span></footer>
 </body></html>
