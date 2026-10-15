@@ -1,2 +1,5 @@
 .page-anuncios .page-heading h1 i { color: var(--accent); }
 .page-anuncios .empty-state { border-top: 2px solid var(--accent); }
+.announcement-card { border-top: 2px solid var(--accent); }
+.announcement-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 8px; padding: 10px 15px; border-radius: 6px; color: #102011; background: var(--accent); font-size: 13px; font-weight: 700; transition: background .2s, transform .2s; }
+.announcement-link:hover { background: var(--accent-strong); transform: translateY(-2px); }
