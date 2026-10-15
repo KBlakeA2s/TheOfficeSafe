@@ -18,6 +18,7 @@ const pagePrefix = isInsidePages ? '' : 'pages/';
 [
   ['Mapa de clanes', 'mapa.html', 'fa-map-location-dot'],
   ['Publicaciones destacadas', 'publicaciones.html', 'fa-star'],
+  ['AnonBot', 'anonbot.html', 'fa-user-secret'],
 ].forEach(([label, file, icon]) => {
   const link = document.createElement('a');
   link.className = 'menu-link';
