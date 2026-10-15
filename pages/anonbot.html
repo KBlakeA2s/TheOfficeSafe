@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#101813">
+  <title>AnonBot | The Office Safe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>tailwind.config = { corePlugins: { preflight: false } };</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><link rel="stylesheet" href="../css/base.css"><link rel="stylesheet" href="../css/anonbot.css">
+  <script src="../js/menu.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="site-menu" aria-expanded="false"><span></span><span></span><span></span></button><a class="brand" href="../index.html" aria-label="The Office Safe, inicio"><span class="brand-mark"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></span><span class="brand-name">THE OFFICE SAFE</span></a><a class="topbar-action" href="servidores.html"><i class="fa-brands fa-discord" aria-hidden="true"></i><span>Unirse</span></a></header>
+  <div class="menu-backdrop" data-menu-close></div>
+  <aside class="side-menu" id="site-menu" aria-label="Navegación principal" aria-hidden="true"><div class="menu-heading"><span>Explorar</span><span class="menu-kicker">THE OFFICE SAFE</span></div><nav class="menu-links"><a class="menu-link" href="../index.html"><i class="fa-solid fa-house" aria-hidden="true"></i><span>Inicio</span></a><a class="menu-link" href="anuncios.html"><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><span>Anuncios</span></a><a class="menu-link" href="importantes.html"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i><span>Importantes</span></a><a class="menu-link" href="planes.html"><i class="fa-solid fa-map" aria-hidden="true"></i><span>Planes a Futuro</span></a><a class="menu-link" href="resueltos.html"><i class="fa-solid fa-check-double" aria-hidden="true"></i><span>Problemas Resueltos</span></a><a class="menu-link" href="servidores.html"><i class="fa-brands fa-discord" aria-hidden="true"></i><span>Servidores</span></a></nav><div class="menu-footer"><i class="fa-solid fa-lock" aria-hidden="true"></i> Comunidad segura</div></aside>
+  <main class="page-main page-anonbot">
+    <div class="page-heading"><span class="section-kicker">COMUNIDAD / REPORTES</span><h1><i class="fa-solid fa-user-secret" aria-hidden="true"></i> AnonBot</h1><p>Una forma privada y sencilla de enviar reportes a The Office, sin exponerte ante el staff.</p></div>
+    <section class="anonbot-intro mx-auto max-w-4xl" aria-labelledby="anonbot-about">
+      <div class="anonbot-mark grid h-16 w-16 place-items-center rounded-lg"><i class="fa-solid fa-user-secret text-2xl" aria-hidden="true"></i></div>
+      <h2 class="mt-6 font-logo text-2xl font-semibold sm:text-3xl" id="anonbot-about">¿Qué es AnonBot?</h2>
+      <p class="mt-3 max-w-3xl text-sm leading-7 sm:text-base">AnonBot es un bot desarrollado por The Office para que cualquier usuario pueda enviar un reporte de forma completamente anónima, sin necesidad de exponerse directamente ante el equipo de staff.</p>
+      <p class="mt-3 max-w-3xl text-sm leading-7 sm:text-base">Fue creado para facilitar que la comunidad comunique situaciones que requieren atención, cuidando la privacidad de quien reporta.</p>
+      <a class="anonbot-button mt-7 inline-flex items-center justify-center gap-3 rounded-md px-6 py-3 text-sm font-semibold" href="https://discord.com/oauth2/authorize?client_id=1559230127978713158" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-discord" aria-hidden="true"></i> Añadir a Discord <i class="fa-solid fa-arrow-up-right-from-square text-xs" aria-hidden="true"></i></a>
+    </section>
+    <section class="anonbot-steps mx-auto mt-12 max-w-4xl" aria-labelledby="steps-title">
+      <div class="section-kicker mb-3">EMPEZAR A USARLO</div>
+      <h2 class="mb-6 font-logo text-2xl font-semibold sm:text-3xl" id="steps-title">Cómo iniciar</h2>
+      <ol class="grid gap-4 sm:grid-cols-3">
+        <li class="anonbot-step rounded-lg p-5"><span class="anonbot-step-number">01</span><h3 class="mt-4 text-base font-semibold">Añade la aplicación</h3><p class="mt-2 text-sm leading-6">Abre el enlace y añade AnonBot a tu cuenta de Discord.</p></li>
+        <li class="anonbot-step rounded-lg p-5"><span class="anonbot-step-number">02</span><h3 class="mt-4 text-base font-semibold">Abre su mensaje privado</h3><p class="mt-2 text-sm leading-6">Busca AnonBot en tus mensajes privados de Discord y abre la conversación.</p></li>
+        <li class="anonbot-step rounded-lg p-5"><span class="anonbot-step-number">03</span><h3 class="mt-4 text-base font-semibold">Envía el comando</h3><p class="mt-2 text-sm leading-6">Escribe <code>!start</code> y envíalo para comenzar a usar el bot.</p></li>
+      </ol>
+    </section>
+    <aside class="anonbot-warning mx-auto mt-8 max-w-4xl rounded-lg p-5 sm:p-6" aria-label="Aviso sobre la fase de pruebas">
+      <h2 class="flex items-center gap-3 text-base font-semibold"><i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i> En fase de pruebas</h2>
+      <p class="mt-2 text-sm leading-7">AnonBot está en fase de pruebas, por lo que puede cometer errores. Si tienes algún problema, contacta a un miembro del staff para que podamos solucionarlo de inmediato.</p>
+    </aside>
+  </main>
+  <footer class="site-footer"><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> THE OFFICE SAFE</span></footer>
+</body></html>
